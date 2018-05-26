@@ -1,27 +1,79 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content=text/html; charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1"/>
-	<link rel="stylesheet" href="style.css">
-	<title>home_task_05</title>
+    <title>Позиционирование блоков</title>
+    <meta charset="utf-8">
+    <link type="image/png" rel="shortcut icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    </style>
 </head>
 <body>
-	<main class="wrapper">
-		<div class="wrapper__blocks">
-			<div class="wrapper__block-item">
-				<p class="wrapper__block-item-p">Block 1</p>
-			</div>
-			<div class="wrapper__block-item">
-				<p class="wrapper__block-item-p">Block 2</p>
-			</div>
-			<div class="wrapper__block-item">
-				<p class="wrapper__block-item-p">Block 3</p>
-			</div>
-			<div class="wrapper__block-item">
-				<p class="wrapper__block-item-p">Block 4</p>
-			</div>
-		</div>
-	</main> <!-- /.wrapper -->
+
+    <div class="container">
+        <h1 class="container_h1">CSS Weather Forecast <i class="icon wi Forecast wi-sunrise"></i></h1>
+
+        <ul class="weather-box">
+
+            <li class="weather-box__item weather-box__item_6 weather-box__item_lisbon">
+                <p>Lisbon</p>
+                <p class="weather-box__item_p2">21&deg;C&nbsp;<i class="icon wi wi-day-sunny"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_4 weather-box__item_paris">
+                <p>Paris</p>
+                <p class="weather-box__item_p2">11&deg;C&nbsp;<i class="icon wi wi-night-sleet"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_4 weather-box__item_belgrade">
+                <p>Belgrade</p>
+                <p class="weather-box__item_p2">15&deg;C&nbsp;<i class="icon wi wi-day-cloudy"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_4 weather-box__item_moscow">
+                <p>Moscow</p>
+                <p class="weather-box__item_p2">21&deg;C&nbsp;<i class="icon wi wi-day-cloudy-high"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_4 weather-box__item_tel-aviv">
+                <p>Tel Aviv</p>
+                <p class="weather-box__item_p2">32&deg;C&nbsp;<i class="icon wi wi-hot"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_4 weather-box__item_cair">
+                <p>Cair</p>
+                <p class="weather-box__item_p2">21&deg;C&nbsp;<i class="icon wi wi-day-sunny"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_4 weather-box__item_new-york">
+                <p>New York</p>
+                <p class="weather-box__item_p2">17&deg;C&nbsp;<i class="icon wi wi-day-sleet-storm"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_4 weather-box__item_new-dehli">
+                <p>New Dehli</p>
+                <p class="weather-box__item_p2">17&deg;C&nbsp;<i class="icon wi wi-rain-wind"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_6 weather-box__item_san-francisco">
+                <p>San Francisco</p>
+                <p class="weather-box__item_p2">15&deg;C&nbsp;<i class="icon wi wi-day-sunny-overcast"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_4 weather-box__item_tokyo">
+                <p>Tokyo</p>
+                <p class="weather-box__item_p2">8&deg;C&nbsp;<i class="icon wi wi-night-clear"></i></p>
+            </li>
+
+            <li class="weather-box__item weather-box__item_12 weather-box__item_sydney">
+                <p>Sydney</p>
+                <p class="weather-box__item_p2">25&deg;C&nbsp;<i class="icon wi wi-night-partly-cloudy"></i></p>
+            </li>
+
+        </ul>
+        <p>Have a nice day and don't forget umbrella if you are in New Dehli now!</p>
+    </div>
+
 </body>
 </html>
